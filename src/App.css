@@ -51,6 +51,13 @@ font-size: 12px;
 }
 
 #card {
+  width: 320px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+/*
+#card {
   background-image: linear-gradient(to right, #d05653, #6861bc);
   color: #ffffff;
   font-weight: 500;
@@ -73,6 +80,7 @@ font-size: 12px;
   width: 60px;
   height: 40px;
 }
+*/
 
 ul.card-logo {
   display: flex;

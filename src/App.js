@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import avater from './images/avater-crop.jpg';
-import chip from './images/chip.jpg';
-import mCard from './images/mastercard-logo.png';
+//  import chip from './images/chip.jpg';
+//import mCard from './images/mastercard-logo.png';
+import card from './images/card.jpg';
 import visa from './images/visa.png';
 import discover from './images/discover.png';
 import payPal from './images/pay_pal.png';
@@ -25,13 +26,8 @@ function App() {
           <p id="pay-info">Payment Information</p>
           <p id="choose-pay">Choose your method of payment.</p>
           <div id="card">
-          <p>CARD NUMBER</p>
-          <p>4324 5433 9382 1030</p>
-          <img src={chip} id="chip" alt="chip"/>
-          <p>EXPIRATION DATE</p>
-          <p>03/24</p>
-          <p>John Doe</p><img src={mCard} id="mc-logo" alt="mastercard"/>
-          </div>  
+          <img src={card} id="card" alt="card"/>
+          </div>
         </div>
         <div id="right-section">
         <ul className="card-logo">
