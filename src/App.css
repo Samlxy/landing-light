@@ -223,11 +223,16 @@ li.logo-item {
     position: relative;
     float: left;
     left: -50px;
+    margin: 20px;
   }
 
   .card-columns {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .details-item {
+    width: 260px;
   }
 
   .card-section {
@@ -237,7 +242,7 @@ li.logo-item {
 
   #radio-btn {
     margin-top: 25px;
-    width: 3px;
+    width: 4px;
     height: 3px;
     border-radius: 50%;
     background: white;
@@ -245,17 +250,17 @@ li.logo-item {
   }
 
   #add-card {
-    padding: 10px 80px;
+    padding: 10px 115px;
   }
 
   .total-right {
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   .section-right {
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
     font-weight: bold;
   }
 
@@ -287,6 +292,5 @@ li.logo-item {
     display: flex;
     flex-wrap: wrap;
   }
-
 }
 
