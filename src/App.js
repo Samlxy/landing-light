@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import avater from './images/avater-crop.jpg';
-//  import chip from './images/chip.jpg';
-//import mCard from './images/mastercard-logo.png';
+import avater from './images/avater.jpg';
 import card from './images/card.jpg';
 import visa from './images/visa.png';
 import discover from './images/discover.png';
