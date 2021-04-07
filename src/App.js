@@ -54,7 +54,7 @@ function App() {
           <input className="details-item" placeholder="10119" type="text" />
           </div>
         </div>
-        <input type="check-box" id="radio-btn" checked="checked" name="radio" /><span id="label-two">Use this card for next time purchase</span>
+        <span id="radio-btn"></span><span id="label-two">Use this card for next time purchase</span>
         <input type="submit" id="add-card" value="Add card" />
         </div>
       </div>
