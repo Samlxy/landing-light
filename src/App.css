@@ -206,24 +206,45 @@ li.logo-item {
 
 /* Mobile phone */
 @media only screen and (max-width: 460px) {
+  li.nav-item {
+    font-size: 12px;
+    margin: 5px 5px 30px 5px;
+  }
+
+  ul.card-logo {
+    justify-content: flex-start;
+  }
+  .card-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .card-section {
     display: flex;
     flex-wrap: wrap;
   }
 
+  #radio-btn {
+    margin-top: 25px;
+    width: 2px;
+    height: 3px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #416be9;
+  }
+
   #add-card {
-    display: flex;
-    flex-wrap: wrap;
+    padding: 10px 60px;
   }
 
   .total-right {
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 
   .section-right {
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 50px;
     font-weight: bold;
   }
 
