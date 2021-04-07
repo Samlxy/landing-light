@@ -4,7 +4,7 @@ body {
 
 .container {
   max-width: 800px;
-  max-height: 1200px;
+  max-height: 1500px;
   margin: auto;
   margin-top: 5px;
   padding-left: 40px;
@@ -205,15 +205,25 @@ li.logo-item {
 }
 
 /* Mobile phone */
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 550px) {
+  .container {
+    margin-top: 0px;
+  }
+  
   li.nav-item {
-    font-size: 12px;
-    margin: 5px 5px 30px 5px;
+    margin: 20px 10px 30px 0px;
   }
 
   ul.card-logo {
+    display: flex;
     justify-content: flex-start;
   }
+
+  li.logo-item {
+    padding: 15px;
+    margin-left: -20px;
+  }
+
   .card-columns {
     display: flex;
     flex-wrap: wrap;
@@ -226,30 +236,31 @@ li.logo-item {
 
   #radio-btn {
     margin-top: 25px;
-    width: 2px;
+    width: 3px;
     height: 3px;
     border-radius: 50%;
     background: white;
-    border: 3px solid #416be9;
+    border: 2px solid #416be9;
   }
 
   #add-card {
-    padding: 10px 60px;
+    padding: 10px 70px;
   }
 
   .total-right {
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
   .section-right {
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
     font-weight: bold;
   }
 
   #pay-button {
-    padding: 5px 15px;
+    padding: 10px 25px;
+    margin-bottom: 60px;
   }
   
 }
