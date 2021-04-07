@@ -249,13 +249,13 @@ li.logo-item {
   }
 
   .total-right {
-    padding: 10px;
-    margin-left: -50px;
+    padding: 5px;
+    margin-left: 10px;
   }
 
   .section-right {
-    padding: 10px;
-    margin-left: -50px;
+    padding: 5px;
+    margin-left: 10px;
     font-weight: bold;
   }
 
@@ -274,12 +274,12 @@ li.logo-item {
 
   .total-right {
     padding: 10px;
-    margin-left: 200px;
+    margin-left: 20px;
   }
 
   .section-right {
     padding: 10px;
-    margin-left: 200px;
+    margin-left: 20px;
     font-weight: bold;
   }
 
