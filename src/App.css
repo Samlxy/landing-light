@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+body {
+  background-color: #707070;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  max-height: 1200px;
+  margin: auto;
+  margin-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul.navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+li.nav-item {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  color: #606060;
+  margin: 40px 20px 60px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avater-icon {
+  border-radius: 50%;
+  height: 40px;
+  width: 38px;
+  margin: 20px -10px 10px 20px;
 }
+
+#pay-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#choose-pay {
+color: #949494;
+font-size: 12px;
+}
+
+.card-section {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#card {
+  background-image: linear-gradient(to right, #d05653, #6861bc);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 4px;
+}
+
+#chip {
+  width: 60px;
+  height: 40px;
+  margin-left: -10px;
+}
+
+#mc-logo {
+  position: relative;
+  float: right;
+  bottom: 40px;
+  width: 60px;
+  height: 40px;
+}
+
+ul.card-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li.logo-item {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin: 10px;
+}
+
+.shared-logo {
+  width: 30px;
+  height: 20px;
+}
+
+#round-logo {
+  width: 10px;
+  height: 10px;
+  background-color: #eff0f2;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+#paypal-logo {
+  width: 40px;
+  height: 35px;
+  margin-top: -7px;
+}
+
+.card-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.details-item {
+  background-color: #eff0f2;
+  padding: 10px;
+  border: 1px solid lavender;
+  border-radius: 3px;
+}
+
+.label {
+  color:  #696969;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#label-two {
+  margin-left: 10px;
+  color:  #606060;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#radio-btn {
+  margin-top: 25px;
+	width: 1px;
+	height: 3px;
+	border-radius: 50%;
+	background: white;
+  border: 5px solid #416be9;
+}
+
+#add-card {
+  padding: 15px 180px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #416be9;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+#line {
+  background: lavender;
+  height: 0.1px;
+  border: 1px;
+}
+
+.total-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-weight: bold;
+  font-size: 14px;
+  color: #484848;
+}
+
+.total-right {
+  padding: 10px;
+  margin-left: 500px;
+}
+
+#prom-code {
+  color: #B0B0B0;
+}
+
+.payment-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-weight: bold;
+}
+
+#pay-button {
+  padding: 15px 40px;
+  color: #ffffff;
+  background-color: #416be9;
+  margin-top: 25px;
+  margin-bottom: 55px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-right {
+  padding: 10px;
+  margin-left: 250px;
+  font-weight: bold;
+}
+
+/* Mobile phone */
+@media only screen and (max-width: 460px) {
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #add-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .total-right {
+    padding: 10px;
+    margin-left: 150px;
+  }
+
+  .section-right {
+    padding: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+  }
+
+  #pay-button {
+    padding: 5px 15px;
+  }
+  
+}
+/* Tablet */
+@media only screen and (max-width: 760px) {
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .total-right {
+    padding: 10px;
+    margin-left: 200px;
+  }
+
+  .section-right {
+    padding: 10px;
+    margin-left: 200px;
+    font-weight: bold;
+  }
+
+  #add-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
