@@ -25,6 +25,11 @@ li.nav-item {
   font-weight: bold;
   color: #606060;
   margin: 40px 20px 60px 20px;
+  cursor: pointer;
+}
+
+li.nav-item:hover {
+  color: #000000;
 }
 
 .avater-icon {
@@ -32,6 +37,7 @@ li.nav-item {
   height: 40px;
   width: 38px;
   margin: 20px -10px 10px 20px;
+  cursor: pointer;
 }
 
 #pay-info {
@@ -61,6 +67,7 @@ ul.card-logo {
   flex-direction: row;
   justify-content: flex-end;
   list-style-type: none;
+  cursor: pointer;
 }
 
 li.logo-item {
@@ -105,6 +112,10 @@ li.logo-item {
   border-radius: 3px;
 }
 
+.details-item:hover {
+  border-color: #000000;
+}
+
 .label {
   color:  #696969;
   font-size: 12px;
@@ -125,6 +136,7 @@ li.logo-item {
 	height: 5px;
 	border-radius: 50%;
   border: 3px solid #416be9;
+  cursor: pointer;
 }
 
 #add-card {
@@ -137,6 +149,11 @@ li.logo-item {
   margin-bottom: 20px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-card:hover {
+  border: 1px solid gray;
 }
 
 #line {
@@ -177,6 +194,11 @@ li.logo-item {
   border-radius: 4px;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
+}
+
+#pay-button:hover {
+  border: 1px solid gray;
 }
 
 .section-right {
