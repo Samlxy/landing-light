@@ -204,6 +204,7 @@ li.logo-item {
 .section-right {
   margin-left: 250px;
   font-weight: bold;
+  padding-top: 23px;
 }
 
 /* Mobile phone */
@@ -266,7 +267,7 @@ li.logo-item {
 
   .section-right {
     margin-left: 55px;
-    font-weight: bold;
+    padding-top: 17px;
   }
 
   #pay-button {
@@ -288,7 +289,6 @@ li.logo-item {
 
   .section-right {
     margin-left: 55px;
-    font-weight: bold;
   }
 
   #add-card {
