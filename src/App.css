@@ -6,7 +6,7 @@ body {
   max-width: 800px;
   max-height: 1500px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: -20px;
   padding-left: 40px;
   padding-right: 40px;
   background-color: #ffffff;
@@ -189,7 +189,7 @@ li.logo-item {
   color: #ffffff;
   background-color: #416be9;
   margin-top: 25px;
-  margin-bottom: 55px;
+  margin-bottom: 60px;
   border: none;
   border-radius: 4px;
   font-weight: 600;
